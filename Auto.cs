@@ -14,5 +14,9 @@ namespace Laboratorio_6
         public string Color { get; set; }
         public decimal Precio { get; set; }
 
+        internal int FindIndex(Func<object, bool> p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

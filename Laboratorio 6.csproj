@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Auto.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="DatosAlquiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAlquiler.Designer.cs">
+      <DependentUpon>DatosAlquiler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
