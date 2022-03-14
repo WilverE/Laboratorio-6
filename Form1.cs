@@ -38,7 +38,10 @@ namespace Laboratorio_6
             {
                 MessageBox.Show("El vehiculo Ya Ha sido registrado anteriormente");
             }
-            autos.Add(auto); 
+            autos.Add(auto);
+
+            DatosAlquiler frm1 = new DatosAlquiler(); 
+            frm1.Show();
         }
         private void guardarauto()
         {
